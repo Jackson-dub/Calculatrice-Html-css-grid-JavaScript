@@ -1,9 +1,18 @@
+
+@font-face {
+    font-family: 'gothamblack';
+    src: url('gotham-black-webfont.woff2') format('woff2'),
+         url('gotham-black-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 *,
 *::before,
 *::after,
 html {
       box-sizing: border-box;
-      font-family: Gotham Rounded, sans-serif;
+      font-family: gothamblack, sans-serif;
       font-weight: normal;
 }
 
