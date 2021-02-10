@@ -1,10 +1,11 @@
 
 @font-face {
     font-family: 'gothamblack';
-    src: url('gotham-black-webfont.woff2') format('woff2'),
-         url('gotham-black-webfont.woff') format('woff');
+    src: url('fonts/gotham-black-webfont.woff2') format('woff2'),
+         url('fonts/gotham-black-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+
 }
 
 *,
@@ -12,7 +13,7 @@
 *::after,
 html {
       box-sizing: border-box;
-      font-family: 'gothamblack', sans-serif;
+      font-family: 'gothamblack';
       font-weight: normal;
 }
 
