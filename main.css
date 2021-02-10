@@ -33,10 +33,11 @@ body {
       justify-content: center;
       align-items: center;
       min-height: 100vh;
-      grid-template-columns: repeat(4, 100px);
-      grid-template-rows: minmax(70px, 25%) repeat(5, 100px);
+      grid-template-columns: repeat(4, 70px);
+      grid-template-rows: minmax(50px, 25%) repeat(5, 80px);
       gap:0 1px;
 }
+
 
 .calculator-grid > button{
       cursor: pointer;
